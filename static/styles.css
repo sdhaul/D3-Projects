@@ -1,0 +1,52 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark theme background */
+    color: #eaeaea; /* Light text for contrast */
+    overflow: hidden; /* Prevent scrollbars caused by Three.js */
+}
+
+h1, h2 {
+    font-size: 36px; /* Larger text for headings */
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px; /* Larger body text */
+    text-align: center;
+    color: #d4d4d4;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Shared button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px; /* Larger button text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Visualization-specific styles */
+#bar-chart-container, #line-chart-container {
+    margin: 40px auto;
+    max-width: 800px;
+}
